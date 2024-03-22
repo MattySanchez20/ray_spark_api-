@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ray-api-testing"
+version = "0.1.0"
+description = "testing concurrent api requests"
+authors = ["matias-olvin <matias@olvin.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dask = "^2023.9.3"
+ray = "^2.7.1"
+httpx = "^0.25.0"
+pandas = "^2.2.1"
+pyspark = "^3.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
